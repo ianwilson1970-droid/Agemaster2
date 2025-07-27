@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #1A2A44; /* Dark navy from logo */
+    background-color: #F5F5F5;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+.bg-primary {
+    background-color: #1A2A44 !important; /* Dark navy */
+}
+
+.text-gold {
+    color: #D4A017 !important; /* Gold from logo */
+}
+
+.text-primary {
+    color: #1A2A44 !important;
+}
+
+#hero {
+    background-color: #1A2A44;
+    color: #fff;
+}
+
+.btn-outline-light {
+    border-color: #D4A017;
+    color: #D4A017;
+}
+
+.btn-outline-light:hover {
+    background-color: #D4A017;
+    color: #fff;
+}
+
+section {
+    padding: 60px 0;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* JPG Container Styling */
+#image-container {
+    padding: 0;
+    background-color: #fff;
+}
+
+#image-container .image-box {
+    width: 100%;
+    overflow: hidden;
+}
+
+#image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid #D4A017;
+    border-radius: 0;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .navbar-nav {
+        justify-content: flex-end;
+    }
+}
+
+/* Large font mode */
+.large-font {
+    font-size: 22px !important;
+}
+
+.large-font h1 {
+    font-size: 36px !important;
+}
+
+.large-font h2 {
+    font-size: 28px !important;
+}
+
+a {
+    color: #D4A017;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #B38600;
+}
+
+/* Navbar adjustments */
+.navbar-brand {
+    margin-right: auto;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
